@@ -49,17 +49,17 @@ public class ImagePreviewActivity extends AppCompatActivity implements OnItemCli
         toolbar = findViewById(R.id.toolbar);
         vPager = findViewById(R.id.vPager);
         setSupportActionBar(toolbar);
-        toolbar.setTitle("");
-        toolbar.setSubtitle("");
-        getSupportActionBar().setDisplayShowTitleEnabled(false);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setDisplayShowHomeEnabled(true);
-        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                onBackPressed();
-            }
-        });
+//        toolbar.setTitle("");
+//        toolbar.setSubtitle("");
+//        getSupportActionBar().setDisplayShowTitleEnabled(false);
+//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+//        getSupportActionBar().setDisplayShowHomeEnabled(true);
+//        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                onBackPressed();
+//            }
+//        });
         setUpViews();
     }
 
@@ -86,8 +86,8 @@ public class ImagePreviewActivity extends AppCompatActivity implements OnItemCli
 
     @Override
     public void onItemClick(String item) {
-        toolbar.setVisibility(toolbar.getVisibility() == View.VISIBLE ?
-                View.INVISIBLE : View.VISIBLE);
+//        toolbar.setVisibility(toolbar.getVisibility() == View.VISIBLE ?
+//                View.INVISIBLE : View.VISIBLE);
     }
 
     @Override
